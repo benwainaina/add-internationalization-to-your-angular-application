@@ -1,0 +1,30 @@
+{
+  "APP": {
+    "TITLE": "Internacionalización en angular",
+    "LEADING_TEXT": "¡Felicidades! ",
+    "LINKS": {
+      "EXPLORE": "Explora los documentos",
+      "LEARN": "Aprende con tutoriales",
+      "CLI_DOCS": "Documentos CLI",
+      "ANGULAR_LANGUAGE_SERVICE": "Servicio de lenguaje angular",
+      "ANGULAR_DEV_TOOLS": "Herramientas de desarrollo angular"
+    },
+    "LANGUAGES": {
+      "SW": "swahili",
+      "AR": "árabe",
+      "PT": "portugués",
+      "EN": "Inglés",
+      "ES": "Español"
+    },
+    "SHOUTOUTS": {
+      "ACTION": "¡Envía un saludo!",
+      "HELLO": "Hola",
+      "OPTIONS": {
+        "WORLD": "Mundo",
+        "BAE": "Ben e ingeniería",
+        "YOUTUBE": "YouTube",
+        "EARTH": "Tierra"
+      }
+    }
+  }
+}

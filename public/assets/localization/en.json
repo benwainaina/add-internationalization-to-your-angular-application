@@ -1,0 +1,30 @@
+{
+  "APP": {
+    "TITLE": "Internationalization In Angular",
+    "LEADING_TEXT": "Congratulations! Your app is running. 🎉",
+    "LINKS": {
+      "EXPLORE": "Explore the Docs",
+      "LEARN": "Learn with Tutorials",
+      "CLI_DOCS": "CLI Docs",
+      "ANGULAR_LANGUAGE_SERVICE": "Angular Language Service",
+      "ANGULAR_DEV_TOOLS": "Angular DevTools"
+    },
+    "LANGUAGES": {
+      "SW": "Swahili",
+      "AR": "Arabic",
+      "PT": "Portuguese",
+      "EN": "English",
+      "ES": "Spanish"
+    },
+    "SHOUTOUTS": {
+      "ACTION": "Send Shout Out!",
+      "HELLO": "Hello",
+      "OPTIONS": {
+        "WORLD": "World",
+        "BAE": "Ben And Engineering",
+        "YOUTUBE": "YouTube",
+        "EARTH": "Earth"
+      }
+    }
+  }
+}

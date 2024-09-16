@@ -1,0 +1,30 @@
+{
+  "APP": {
+    "TITLE": "Kimataifa Katika Angular",
+    "LEADING_TEXT": "Hongera! ",
+    "LINKS": {
+      "EXPLORE": "Gundua Hati",
+      "LEARN": "Jifunze na Mafunzo",
+      "CLI_DOCS": "Hati za CLI",
+      "ANGULAR_LANGUAGE_SERVICE": "Huduma ya Lugha ya Angular",
+      "ANGULAR_DEV_TOOLS": "Angular DevTools"
+    },
+    "LANGUAGES": {
+      "SW": "kiswahili",
+      "AR": "Kiarabu",
+      "PT": "Kireno",
+      "EN": "Kiingereza",
+      "ES": "Kihispania"
+    },
+    "SHOUTOUTS": {
+      "ACTION": "Tuma Kelele!",
+      "HELLO": "Habari",
+      "OPTIONS": {
+        "WORLD": "Ulimwengu",
+        "BAE": "Ben na Uhandisi",
+        "YOUTUBE": "YouTube",
+        "EARTH": "Dunia"
+      }
+    }
+  }
+}
