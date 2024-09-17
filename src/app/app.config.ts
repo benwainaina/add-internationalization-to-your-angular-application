@@ -17,10 +17,10 @@ export function translateLoaderFactory(httpClient: HttpClient) {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideHttpClient(withFetch()),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideClientHydration(),
+    provideHttpClient(withFetch()),
     importProvidersFrom([
       TranslateModule.forRoot({
         defaultLanguage: 'en',

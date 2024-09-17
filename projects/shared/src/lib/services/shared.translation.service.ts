@@ -20,7 +20,7 @@ interface ILanguage {
 export class SharedTranslationService {
   private _currentLanguage$: BehaviorSubject<string>;
   private _availableLanguages$: Observable<Array<ILanguage>>;
-  private _translateService: TranslateService;
+  private _translateService: TranslateService = inject(TranslateService);
 
   constructor() {
     this._currentLanguage$ = new BehaviorSubject('en');
@@ -30,8 +30,9 @@ export class SharedTranslationService {
       { key: 'pt', label: 'APP.LANGUAGES.PT' },
       { key: 'es', label: 'APP.LANGUAGES.ES' },
       { key: 'en', label: 'APP.LANGUAGES.EN' },
+      { key: 'de', label: 'APP.LANGUAGES.DE' },
     ]);
-    this._translateService = inject(TranslateService);
+    this._setLanguageInUse('en');
   }
 
   public getAvailableLanguages(): Observable<Array<ILanguage>> {
@@ -43,8 +44,12 @@ export class SharedTranslationService {
   }
 
   public setCurrentLanguage(languageKey: string): void {
+    this._setLanguageInUse(languageKey);
+  }
+
+  private _setLanguageInUse(languageKey: string): void {
     this._currentLanguage$.next(languageKey);
-    this._translateService.setDefaultLang(languageKey);
+    this._translateService.use(languageKey);
   }
 
   public translate(contentKey: string): string {
